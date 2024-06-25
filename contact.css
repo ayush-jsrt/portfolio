@@ -1,0 +1,17 @@
+#contactabout{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.51);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#contactlinks{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(11, 11, 127);
+    color: white;
+    width: 80px;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 20px;
+}
