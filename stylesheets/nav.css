@@ -1,0 +1,44 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    width: 100%;
+    justify-content: space-around;
+    padding: 8px 10px 8px 10px;
+    top: 0;
+    background-color: white;
+    left: 0;
+    border-bottom: 1px solid #979797;
+}
+
+#innerNavFlex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1400px;
+    justify-content: space-between;
+}
+
+#logo-name{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#logo{
+    height: 60px;
+}
+
+#navigationContent{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.navigationItems{
+    align-self: center;
+}

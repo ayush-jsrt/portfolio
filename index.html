@@ -1,70 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="general.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="section.css">
-    <link rel="stylesheet" href="projects.css">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="stylesheets/general.css">
+    <link rel="stylesheet" href="stylesheets/nav.css">
+    <link rel="stylesheet" href="stylesheets/about.css">
 </head>
+
 <body>
-    <!-- navbar with two parts as my photo&name and navigation bar -->
-    <nav style="background-color: bisque;">
-        <div id="navhead">
-            <img id="logo" src="https://media.licdn.com/dms/image/D4D03AQHycpKBM-vEdw/profile-displayphoto-shrink_800_800/0/1696742139985?e=1724889600&v=beta&t=0B9f1oPrxNjpqEfIdpsSWXHQg46ZVZnfQ_3t2NSW65w" alt="my photo">
-            <h1 id="name">Ayush Jasrotia</h1>
-        </div>
-        <ul id="navbar">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    
-    <!-- about section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <div id="aboutcontent">
-            <p>My name is Ayush Jasrotia, and I am a dedicated third-year computer science student with a strong foundation in multiple programming languages, including Python, Java, C++, and JavaScript. Throughout my academic journey, I have immersed myself in both theoretical and practical aspects of computer science, which has equipped me with a deep understanding of algorithms, data structures, and system design. My coursework and project experience have allowed me to tackle complex coding challenges with confidence and creativity, and I am always eager to apply my skills to real-world problems.</p>
-            
-            <p>Beyond my academic pursuits, I have a strong passion for technology and innovation, which has led me to actively participate in numerous open-source projects. Contributing to the open-source community has been an invaluable experience, providing me with exposure to real-world software development practices and collaborative problem-solving. These contributions have not only enhanced my technical skills but also my ability to work effectively in teams, communicate complex ideas clearly, and continuously improve through feedback and iteration. Additionally, my involvement in open-source projects has enabled me to build a network of like-minded peers and mentors who inspire and challenge me to grow as a developer.</p>
-
-            <p>In addition to my technical pursuits, I am committed to developing a well-rounded skill set that includes leadership, communication, and project management. I have taken on various roles in student organizations and tech clubs, where I have organized workshops, hackathons, and coding competitions. These experiences have not only enhanced my organizational and leadership abilities but have also reinforced my belief in the power of community and collaboration in driving technological progress. As I continue my journey in computer science, I am excited to leverage my skills and experiences to contribute to impactful projects and innovations, always striving to learn  new technologies and tools to stay at the forefront of the field.</p>
-        </div>
-    </section>
-
-    <!-- projects section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3 class="projectname"><a href="">Vidsense</a></h3>
-            <p>I developed VidSense, a tool designed to deliver concise summaries or answer specific questions from audio and video content. Leveraging the advanced RoBERTa language model for precise and contextually relevant responses, VidSense enhances user engagement by providing quick insights without the need to consume lengthy media. I designed a user-friendly interface for smooth interaction, utilizing the YouTube API to fetch transcripts directly from videos and incorporating RecordRTC for direct audio recording. This project showcases my expertise in AI technologies, web development, API integration, and user interface design, resulting in a technically sophisticated and user-centric tool.</p>
-        </div>
-        <div class="project">
-            <h3 class="projectname"><a href="">Noida Metro Locator</a></h3>
-            <p>I developed the Noida Metro Locator (NMRC) using Python, Flask, MySQL, JavaScript, and Leaflet.js to create an interactive metro tracking system. Leveraging Leaflet.js for mapping functionalities, the project provides real-time tracking of Noida Metro, offering a user-friendly interface developed with HTML, CSS, and JavaScript. The backend logic and real-time data APIs are managed using Python, ensuring a seamless experience for commuters. This project employs a robust tech stack, integrating geolocation and push notifications to deliver accurate arrival alerts and enhance commuter convenience.</p>
-        </div>
-    </section>
-
-    <!-- contact section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <div id="contactcontent">
-            <p id="contactabout">If you would like to get in touch with me, please feel free to reach out via email or connect with me on LinkedIn. I am always open to new opportunities, collaborations, and conversations with fellow developers and tech enthusiasts. Whether you have a project idea, a coding challenge, or simply want to chat about the latest tech trends, I would love to hear from you!</p>
-            <div id="contactlinks">
-                <a href="mailto:ayush.jsrt@gmail.com">Email</a>
-                <a href="https://www.linkedin.com/in/ayushjasrotia/">LinkedIn</a>
-                <!-- leetcode and github also -->
-                <a href="https://leetcode.com/ayushjsrtia/">LeetCode</a>
-                <a href="https://github.com/ayush-jsrt">GitHub</a>
+    <nav>
+        <div id="innerNavFlex">
+            <div id="logo-name">
+                <img id="logo" src="https://michaelsheng15.github.io/react-website/static/media/memoji.bf4bfe17.png" alt="logo">
+                <h1 id="name"></h1>
             </div>
+            <ul id="navigationContent">
+                <li class="navigationItems"><a href="index.html">Home</a></li>
+                <li class="navigationItems"><a href="projects.html">Projects</a></li>
+                <li class="navigationItems"><a href="contact.html">Contact</a></li>
+            </ul>
         </div>
-    </section>
+    </nav>
+
+    <div id="about">
+        <img id="profilePicture" src="https://ongpng.com/wp-content/uploads/2023/11/Suguru-Geto-smiling-and-waving-1.png" alt="Profile Picture">
+        <div id="aboutText">
+            <h2>Hi,</h2>
+            <h2>I'm Ayush Jasrotia</h2>
+            <h2>I'm a frontend developer currently pursuing my B.Tech in Computer Science and Engineering.</h2>
+        </div>
+    </div>
 </body>
+
 </html>

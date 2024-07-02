@@ -1,0 +1,42 @@
+#projects{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#projectFlex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1400px;
+    gap: 40px;
+}
+
+.projectCard{
+    border-radius: 20px;
+    background-color: rgba(143, 112, 112, 0.137);
+    width: max-content;
+    overflow: hidden;
+    box-shadow: 7px 12px 0px rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(0, 0, 0, 1);
+}
+
+.projectCardImage{
+    width: 400px;
+    object-fit: cover;
+    height: 200px;
+}
+
+.projectTitle{
+    margin-left: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.projectDescription{
+    margin-left: 10px;
+    max-width: 380px;
+    font-size: 1em;
+}

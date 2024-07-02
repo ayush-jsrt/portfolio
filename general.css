@@ -1,9 +1,0 @@
-*{
-    font-family: 'Montserrat','Courier New', Courier, monospace;
-}
-
-/* set links without any formatting */
-a, a:visited, a:hover, a:active{
-    text-decoration: none;
-    color: inherit;
-}
